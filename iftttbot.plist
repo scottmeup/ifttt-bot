@@ -17,7 +17,7 @@
 	<array>
 		<string>/opt/local/bin/bash</string>
 		<string>-c</string>
-		<string>exec iftttbot</string>
+		<string>exec iftttbot.sh</string>
 	</array>
 	<key>RunAtLoad</key>
 	<true/>
