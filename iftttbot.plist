@@ -15,9 +15,9 @@
 	<string>com.scottmeup.iftttbot</string>
 	<key>ProgramArguments</key>
 	<array>
-		<string>/opt/local/bin/bash</string>
+		<string>bash</string>
 		<string>-c</string>
-		<string>exec iftttbot.sh</string>
+		<string>exec python3 /path/to/iftttbot.py username 'password' AppID</string>
 	</array>
 	<key>RunAtLoad</key>
 	<true/>
