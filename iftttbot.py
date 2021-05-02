@@ -39,7 +39,7 @@ if __name__ == '__main__':
 
     expected_url = "https://ifttt.com/home"
     login_success = expected_url == driver.current_url
-    print("expected_url = " + expected_url + ", .current_url = " + driver.current_url)
+    print("expected_url = " + expected_url + ", current_url = " + driver.current_url)
     print("successfull login = " + str(login_success))
     if not(login_success):
         driver.close()
